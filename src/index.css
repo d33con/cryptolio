@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+  height: 168px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.title__text {
+  font-size: 42px;
+}
+
+.summary__container {
+  height: 168px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 36px;
+}
